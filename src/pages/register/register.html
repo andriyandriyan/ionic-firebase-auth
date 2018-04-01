@@ -1,0 +1,22 @@
+<ion-header>    
+    <ion-navbar>
+        <ion-title>Register</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <form #form="ngForm" (ngSubmit)="register()">
+        <ion-list>
+            <ion-item>
+                <ion-label floating>Email</ion-label>
+                <ion-input type="text" [(ngModel)]="user.email" name="email" required></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label floating>Password</ion-label>
+                <ion-input type="password" [(ngModel)]="user.password" name="password" required></ion-input>
+            </ion-item>
+            <p class="text-md-danger" *ngIf="error">{{ error }}</p>
+        </ion-list>
+        <button ion-button block type="submit" [disabled]="!form.valid">Register</button>
+    </form>
+</ion-content>
