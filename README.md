@@ -4,7 +4,7 @@ Login and Register using Ionic 3 and Firebase
 ### Screenshot App
 
 ![alt text](Screenshots/login-page.png "Login Page")
-![alt text](Screenshots/register-page-295x600.png "Register Page")
+![alt text](Screenshots/register-page.png "Register Page")
 ![alt text](Screenshots/home-page.png "Home Page")
 ![alt text](Screenshots/reset-password-page.png "Reset Password Page")
 
