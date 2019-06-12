@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, AlertController } from 'ionic-angular';
-import { AngularFireAuth } from 'angularfire2/auth';
+import { AngularFireAuth } from '@angular/fire/auth';
 
 @IonicPage()
 @Component({
@@ -14,9 +14,11 @@ export class LoginPage {
     }
 
     login() {
-        this.afAuth.auth.signInWithEmailAndPassword(this.user.email, this.user.password).then(data => {
-            if (!data.emailVerified) {
-                let alert = this.alertCtrl.create({
+		this.afAuth.auth.signInWithEmailAndPassword(this.user.email, this.user.password)
+		.then(response => {
+			const { user: { emailVerified } } = response;
+            if (!emailVerified) {
+                const alert = this.alertCtrl.create({
                     title: 'Failed',
                     message: 'Email has not been verified',
                     buttons: ['OK']
@@ -26,7 +28,7 @@ export class LoginPage {
 				this.navCtrl.setRoot('HomePage')
 			}
         }).catch(err => {
-            let alert = this.alertCtrl.create({
+            const alert = this.alertCtrl.create({
                 title: 'Failed',
                 message: err.message,
                 buttons: ['OK']
