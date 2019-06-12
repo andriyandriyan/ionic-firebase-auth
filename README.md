@@ -10,7 +10,7 @@ Login and Register using Ionic 3 and Firebase
 
 
 ### Demo App
-You can check demo app on [http://andriyandriyan.com/ionic-firebase-auth](http://andriyandriyan.com/ionic-firebase-auth)
+You can check demo app on [https://ionic-firebase-auth.netlify.com/](https://ionic-firebase-auth.netlify.com/)
 
 ### Installation
 Download this repo or you can clone this repo using following command
