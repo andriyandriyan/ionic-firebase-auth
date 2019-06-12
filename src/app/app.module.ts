@@ -10,12 +10,13 @@ import { AngularFireAuth } from '@angular/fire/auth';
 
 // AngularFire Settings
 export const firebaseConfig = {
-    apiKey: "AIzaSyDx_sw-5k4dadS5YZ_4gUzWT-1Xana9Phw",
-    authDomain: "projectapp-654b9.firebaseapp.com",
-    databaseURL: "https://projectapp-654b9.firebaseio.com",
-    projectId: "projectapp-654b9",
-    storageBucket: "projectapp-654b9.appspot.com",
-    messagingSenderId: "796115019408"
+    apiKey: 'AIzaSyBHYBRdhSZcNsKJASJb6FbWLzp6R_EeFFY',
+    authDomain: 'belajar-768ef.firebaseapp.com',
+    databaseURL: 'https://belajar-768ef.firebaseio.com',
+    projectId: 'belajar-768ef',
+    storageBucket: 'belajar-768ef.appspot.com',
+    messagingSenderId: '394662600237',
+    appId: '1:394662600237:web:1800e138e26d75e4'
 };
 
 @NgModule({
