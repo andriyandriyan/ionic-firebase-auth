@@ -3,10 +3,10 @@ Login and Register using Ionic 3 and Firebase
 
 ### Screenshot App
 
-![alt text](http://andriyandriyan.com/wp-content/uploads/2018/04/login-page-296x600.png "Login Page")
-![alt text](http://andriyandriyan.com/wp-content/uploads/2018/04/register-page-295x600.png "Register Page")
-![alt text](http://andriyandriyan.com/wp-content/uploads/2018/04/home-page-296x600.png "Home Page")
-![alt text](http://andriyandriyan.com/wp-content/uploads/2018/04/reset-password-page-296x600.png "Reset Password Page")
+![alt text](Screenshots/login-page.png "Login Page")
+![alt text](Screenshots/register-page-295x600.png "Register Page")
+![alt text](Screenshots/home-page.png "Home Page")
+![alt text](Screenshots/reset-password-page.png "Reset Password Page")
 
 
 ### Demo App
